@@ -1,0 +1,152 @@
+/* https://colorhunt.co/palette/09122c872341be3144e17564 */
+
+/* General Styles */
+body {
+    margin: 2;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #E17564;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav p, nav a {}
+
+nav a {}
+
+nav a:hover {}
+
+/* Footer Styles */
+footer {
+    background-color: #BE3144;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {}
+
+footer a:hover {}
+
+/* Splash Section */
+.splash {}
+
+.splash h1 {
+    color:#E17564;
+    font-family: "Anton SC", serif;
+}
+
+.splash img {
+    height: 256px;
+    width: 192px;
+}
+
+.splash p {
+    
+}
+
+.tagLine {
+    background-color: bisque;
+}
+
+.address {
+    background-color: burlywood;
+}
+
+.education {
+    font-weight: 900;
+    font-size: large;
+}
+
+.skills {
+    font-size: large;
+}
+
+/* Horizontal Rules */
+hr {}
+
+/* Sections */
+section {}
+
+/* Section Headings */
+section h2 {
+    border: 4px dotted blue;
+    font-family: "Baskervville SC", serif;
+}
+
+/* Paragraph Styles */
+section p {}
+
+/* link styles */
+section a {
+    text-decoration: none;
+    color: hotpink;
+}
+section a:hover {
+    color: navajowhite;
+}
+
+/* List Styles */
+ul {
+    color: #E17564;
+}
+
+dl {
+    display: grid;
+}
+dl dt{}
+dl dd{}
+
+
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {}
+
+.card h3 {}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 5px;
+}
+
+form {}
+
+form input, form textarea {
+    font-weight: bold;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {}
+
+form button:hover {}
+
+.me {
+    border-radius: 50%;
+}
